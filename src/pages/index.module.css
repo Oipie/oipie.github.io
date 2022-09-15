@@ -1,0 +1,119 @@
+.container {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "main"
+    "mobile"
+    "markers"
+    "spacer"
+    "footer";
+
+  padding: 16px;
+  min-height: 100vh;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding: 0;
+    padding-top: 147px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "mobile    main"
+      "mobile markers"
+      "spacer  spacer"
+      "footer  footer";
+  }
+}
+
+.header {
+  grid-area: head;
+}
+
+.mobile {
+  grid-area: mobile;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+}
+
+.mobile img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .mobile img {
+    width: 375px;
+  }
+}
+
+.main {
+  grid-area: main;
+
+  max-width: 552px;
+}
+
+.logo {
+  height: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .circle:nth-child(2) {
+    top: 40vh;
+    right: 10vw;
+  }
+}
+
+.paragraph {
+  margin-bottom: 30px;
+}
+
+.cornerLogo {
+  position: absolute;
+  top: -100px;
+  right: -150px;
+  width: 290px;
+}
+
+.markets {
+  grid-area: markers;
+
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  max-width: 552px;
+  z-index: 10;
+  position: relative;
+}
+
+.markets img {
+  display: block;
+  height: 38px;
+}
+
+@media screen and (min-width: 768px) {
+  .markets img {
+    height: 60px;
+  }
+}
+
+.spacer {
+  grid-area: spacer;
+}
+
+@media screen and (min-width: 768px) {
+  .cornerLogo {
+    top: -200px;
+    right: -250px;
+    width: 500px;
+  }
+}
+
+.footer {
+  grid-area: footer;
+}

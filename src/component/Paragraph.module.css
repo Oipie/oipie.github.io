@@ -1,0 +1,9 @@
+.paragraph {
+  font-family: Montserrat, monospace;
+  font-size: 16px;
+  line-height: 33px;
+  letter-spacing: 0;
+  color: rgb(40, 40, 40);
+  z-index: 10;
+  position: relative;
+}

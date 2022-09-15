@@ -1,0 +1,10 @@
+.title {
+  font-family: Montserrat, monospace;
+  font-weight: 600;
+  font-size: 44px;
+  line-height: 50pt;
+  letter-spacing: 0.33pt;
+  color: black;
+  z-index: 10;
+  position: relative;
+}
