@@ -26,7 +26,7 @@ export default function Index() {
             The best healty recepies on the market.
           </Paragraph>
           <Paragraph className={styles.paragraph}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea sapiente minima ullam iure
+            Lolem ipsum dolor sit amet consectetur adipisicing elit. Ea sapiente minima ullam iure
             doloribus quas tenetur laboriosam laudantium cupiditate maxime, adipisci error
             doloremque quibusdam quos quis dignissimos asperiores facilis dolorum!
           </Paragraph>
