@@ -1,0 +1,6 @@
+# By default frontend developers do review
+src @Oipie/frontend
+public @Oipie/frontend
+
+# CICD and infrastructure files
+.github @Oipie/sre
