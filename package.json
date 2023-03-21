@@ -26,7 +26,7 @@
     "@types/node": "18.15.5",
     "@types/react": "18.0.28",
     "classnames": "2.3.2",
-    "prettier": "2.8.5",
+    "prettier": "2.8.6",
     "typescript": "5.0.2"
   }
 }
